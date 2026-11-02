@@ -11,9 +11,9 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 async function createAdmin() {
   const admin = new Admin({
-    firstName: "Abhishek",
+    firstName: "Sonu",
     lastName: "kumar",
-    email: "abhishek49272@gmail.com",
+    email: "abc123@gmail.com",
     password: "12345678", 
     role: "admin"
   });
